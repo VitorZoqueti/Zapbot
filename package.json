@@ -1,0 +1,32 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:prod": "tsc && node dist/index.js",
+    "start:dev": "ts watc src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "eventsource": "^2.0.2",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.19.2",
+    "messagemedia": "^0.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "whatsapp-web.js": "^1.23.0",
+    "ws": "^8.17.0"
+  }
+}
